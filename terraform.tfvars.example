@@ -1,0 +1,8 @@
+# Add or update other variables as needed but for the minium configuration needed provide values for the below parameters;
+vnet_rg_name = ""
+vnet_name    = ""
+shared_key   = ""
+tunnel_peers = {
+    pop1= "x.x.x.x" # POP1 ip Address Address e.g. for Toronto POP YYZ1 it will be set to this address 163.116.130.38
+    pop2= "x.x.x.x" # POP2 ip Address Address e.g. for Montreal POP YMQ1 it will be set to this address 163.116.14.38
+}
