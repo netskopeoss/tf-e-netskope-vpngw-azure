@@ -75,6 +75,7 @@ To deploy this template in Azure:
    $ cd <Code Directory>
    $ terraform init
     ```
+
 - Submit the Terraform plan to preview the changes Terraform will make to match your configuration.
    ```sh
    $ terraform plan
