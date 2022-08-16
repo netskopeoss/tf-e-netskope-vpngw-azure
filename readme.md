@@ -70,12 +70,10 @@ To deploy this template in Azure:
 - Clone the GitHub repository for this deployment.
 - Customize variables in the `terraform.tfvars.example` and `variables.tf` file as needed and rename `terraform.tfvars.example` to `terraform.tfvars`.
 - Change to the repository directory and then initialize the providers and modules.
-
    ```sh
    $ cd <Code Directory>
    $ terraform init
     ```
-
 - Submit the Terraform plan to preview the changes Terraform will make to match your configuration.
    ```sh
    $ terraform plan
