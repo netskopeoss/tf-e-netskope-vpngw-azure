@@ -2,7 +2,7 @@
 
 There are a few traffic steering options offered by Netskope to steer traffic to netskope cloud. This Infrastructure as Code (IaC) will help you configure your Azure environment for the following steering options:
 
-- **IPSec** <br>
+- **IPSec - All Traffic** <br>
 IPSec can steer HTTP(S) and non-HTTP(S) traffic to the Netskope cloud. We'll configure the source peer IPSec device i.e. Azure VPN Gateway to send all traffic over the IPSec VPN tunnel to Netskope cloud. The Netskope IPSec gateway validates the source identity of the tunnel configured in the Netskope admin console. If the tunnel identity is not known, the tunnel is not established. This IaC will configure IPSec tunnels from your Azure VPN Gateway to two different Netskope POPs of your chosing. To use this template and configure for this deployment type, ensure you have Netskope Cloud Firewall License enabled.
 
 - **Expilict Proxy Over IPsec** <br>
